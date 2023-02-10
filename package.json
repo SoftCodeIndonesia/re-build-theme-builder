@@ -7,12 +7,22 @@
     "start-dev": "nodemon /bin/www"
   },
   "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^16.0.3",
     "express": "~4.16.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.3",
+    "fastest-validator": "^1.16.0",
+    "file-url": "^4.0.0",
+    "image-thumbnail": "^1.0.15",
+    "jsonwebtoken": "^9.0.0",
     "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
     "mysql2": "^3.1.2",
+    "node-html-to-image": "^3.3.0",
     "sequelize": "^6.28.0",
     "sequelize-cli": "^6.6.0"
   },
