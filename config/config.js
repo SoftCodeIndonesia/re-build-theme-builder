@@ -13,9 +13,9 @@ module.exports = {
     "host": DB_HOST,
     "dialect": DB_DIALECT,
     "port": DB_PORT,
-    // "dialectOptions": {
-    //     "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
-    // },
+    "dialectOptions": {
+        "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    },
   },
   "test": {
     "username": "root",
